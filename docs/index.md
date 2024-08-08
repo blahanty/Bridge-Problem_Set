@@ -3,23 +3,15 @@
 layout: home
 
 hero:
-  name: "Bridge Problem Set"
-  text: "Audrey Grant's daily bridge column"
-  tagline: My great project tagline
+  name: "选择语言"
+  text: "Choose Language"
+  tagline:
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 中文
+      link: zh
     - theme: alt
-      text: API Examples
-      link: /api-examples
-
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+      text: English
+      link: en
 ---
 
