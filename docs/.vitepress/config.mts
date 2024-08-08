@@ -14,7 +14,7 @@ export default defineConfig({
     sidebar: {
       '/en': [
         {
-          text: 'Sort by Category',
+          text: 'By Category',
           items: [
             {
               text: 'Bid',
@@ -40,7 +40,7 @@ export default defineConfig({
           ]
         },
         {
-          text: 'Sort by Date',
+          text: 'By Date',
           items: [
             { text: '2024', link: '/en/date/2024' }
           ]
@@ -49,7 +49,7 @@ export default defineConfig({
 
       'zh': [
         {
-          text: '按类别排序',
+          text: '按类别',
           items: [
             {
               text: '叫牌',
@@ -75,7 +75,7 @@ export default defineConfig({
           ]
         },
         {
-          text: '按日期排序',
+          text: '按日期',
           items: [
             { text: '2024', link: '/zh/date/2024' }
           ]
