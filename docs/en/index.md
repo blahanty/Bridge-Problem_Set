@@ -8,10 +8,12 @@ hero:
   tagline: Audrey Grant's Daily Bridge Column
   actions:
     - theme: brand
-      text: Go
-      link: /en/intro
+      text: Learning Mode
+      link: /en/learning
+    - theme: alt
+      text: Practice Mode
+      link: /en/practice
     - theme: alt
       text: Source
       link: https://dbc.betterbridge.com/
 ---
-

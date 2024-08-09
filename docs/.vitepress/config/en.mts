@@ -1,18 +1,23 @@
 import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
-  title: "Bridge Problem Set",
-  description: "Audrey Grant's daily bridge column",
+export const en = defineConfig({
+  lang: "en-us",
+  description: "Audrey Grant's Daily Bridge Column",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '中文', link: '/zh' },
-      { text: 'English', link: '/en' }
+      {
+        text: 'Mode',
+        items: [
+          { text: 'Learning', link: '/en/learning' },
+          { text: 'Practice', link: '/en/practice' }
+        ]
+      }
     ],
 
     sidebar: {
-      '/en': [
+      '/en/learning': [
         {
           text: 'Calendar',
           items: [
@@ -20,22 +25,22 @@ export default defineConfig({
               text: '2024',
               collapsed: true,
               items: [
-                { text: 'August', link: '/en/calendar/202408' }
+                { text: 'August', link: '/en/learning/calendar/202408' }
               ]
             }
           ]
         }
       ],
 
-      'zh': [
+      '/en/practice': [
         {
-          text: '日期',
+          text: 'Calendar',
           items: [
             {
               text: '2024',
               collapsed: true,
               items: [
-                { text: '8月', link: '/zh/calendar/202408' }
+                { text: 'August', link: '/en/practice/calendar/202408' }
               ]
             }
           ]
@@ -45,10 +50,6 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.yanty.top' }
-    ],
-
-    search: {
-      provider: 'local'
-    }
+    ]
   }
 })
