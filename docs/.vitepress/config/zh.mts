@@ -6,6 +6,8 @@ export const zh = defineConfig({
   description: "Audrey Grant的每日桥牌栏目",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    siteTitle: "桥牌练习题库",
+
     nav: [
       {
         text: '模式',

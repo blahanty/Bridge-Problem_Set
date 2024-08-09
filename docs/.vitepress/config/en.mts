@@ -6,6 +6,8 @@ export const en = defineConfig({
   description: "Audrey Grant's Daily Bridge Column",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    siteTitle: "Bridge Problem Set",
+
     nav: [
       {
         text: 'Mode',
